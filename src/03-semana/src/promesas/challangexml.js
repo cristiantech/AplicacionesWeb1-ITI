@@ -5,6 +5,9 @@ const API = 'https://rickandmortyapi.com/api';
 
 //Generar una funcion para  traer los datos 
 function fetchData(urlApi, callback){
+    return new Promise((resolve, reject) => {
+        
+    })
     let xhttp = new XMLHttpRequest();
     //Abre la conexion de la API
     xhttp.open('GET', urlApi, true);

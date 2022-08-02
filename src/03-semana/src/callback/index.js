@@ -63,6 +63,32 @@ setTimeout(()=>{
     3
 }, 0)
 4
+//Herencia
+//Abstraccion
+//Ebcapsulamineto
+//Polimorfismo
+
+class Personas{
+
+    constructor(name,edad,email){
+        this.name = name;
+        this.edad = edad;
+        this.email = email;
+    }
+
+    open(){
+        console.log(`Mi nombre es ${this.name}`);
+    }
+}
+
+const per1 = new Personas("cristian",27,"crist2306@hub.com")
+const per2 = new Personas("carlos",35,"carlos.r@hub.com")
+
+per1.open()
+
+
+
+
 
 
 

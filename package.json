@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "about of JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiantech/AplicacionesWeb1-ITI.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node",
+    "Asincronismo"
+  ],
+  "author": "Cristian Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cristiantech/AplicacionesWeb1-ITI/issues"
+  },
+  "homepage": "https://github.com/cristiantech/AplicacionesWeb1-ITI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
